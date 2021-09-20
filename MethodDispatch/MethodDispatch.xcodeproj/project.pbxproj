@@ -82,12 +82,16 @@
 				D7BB2E5126F8E94E005D9D84 /* NSObjectDispatch.swift */,
 			);
 			path = NSObject;
+            sourceTree = "<group>";
+        };
 		D7BB2E4D26F8E808005D9D84 /* Table */ = {
 			isa = PBXGroup;
 			children = (
 				D7BB2E4E26F8E81B005D9D84 /* TableDispatch.swift */,
 			);
 			path = Table;
+            sourceTree = "<group>";
+        };
 		D7BB2E4A26F8E568005D9D84 /* Static */ = {
 			isa = PBXGroup;
 			children = (
