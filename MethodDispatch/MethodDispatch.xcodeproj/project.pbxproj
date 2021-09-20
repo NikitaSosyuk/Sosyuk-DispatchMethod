@@ -14,6 +14,8 @@
 		D7BB2E4026F8E47A005D9D84 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D7BB2E3F26F8E47A005D9D84 /* Assets.xcassets */; };
 		D7BB2E4326F8E47A005D9D84 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D7BB2E4126F8E47A005D9D84 /* LaunchScreen.storyboard */; };
 		D7BB2E5226F8E94E005D9D84 /* NSObjectDispatch.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7BB2E5126F8E94E005D9D84 /* NSObjectDispatch.swift */; };
+		D7BB2E4F26F8E81B005D9D84 /* TableDispatch.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7BB2E4E26F8E81B005D9D84 /* TableDispatch.swift */; };
+		D7BB2E4C26F8E586005D9D84 /* StaticDispatch.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7BB2E4B26F8E586005D9D84 /* StaticDispatch.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,8 @@
 		D7BB2E4226F8E47A005D9D84 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D7BB2E4426F8E47A005D9D84 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D7BB2E5126F8E94E005D9D84 /* NSObjectDispatch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NSObjectDispatch.swift; sourceTree = "<group>"; };
+		D7BB2E4E26F8E81B005D9D84 /* TableDispatch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableDispatch.swift; sourceTree = "<group>"; };
+		D7BB2E4B26F8E586005D9D84 /* StaticDispatch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StaticDispatch.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +63,8 @@
 			isa = PBXGroup;
 			children = (
 				D7BB2E5026F8E931005D9D84 /* NSObject */,
+				D7BB2E4D26F8E808005D9D84 /* Table */,
+				D7BB2E4A26F8E568005D9D84 /* Static */,
 				D7BB2E3626F8E479005D9D84 /* AppDelegate.swift */,
 				D7BB2E3826F8E479005D9D84 /* SceneDelegate.swift */,
 				D7BB2E3A26F8E479005D9D84 /* ViewController.swift */,
@@ -76,6 +82,18 @@
 				D7BB2E5126F8E94E005D9D84 /* NSObjectDispatch.swift */,
 			);
 			path = NSObject;
+		D7BB2E4D26F8E808005D9D84 /* Table */ = {
+			isa = PBXGroup;
+			children = (
+				D7BB2E4E26F8E81B005D9D84 /* TableDispatch.swift */,
+			);
+			path = Table;
+		D7BB2E4A26F8E568005D9D84 /* Static */ = {
+			isa = PBXGroup;
+			children = (
+				D7BB2E4B26F8E586005D9D84 /* StaticDispatch.swift */,
+			);
+			path = Static;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -152,7 +170,9 @@
 				D7BB2E3B26F8E479005D9D84 /* ViewController.swift in Sources */,
 				D7BB2E5226F8E94E005D9D84 /* NSObjectDispatch.swift in Sources */,
 				D7BB2E3726F8E479005D9D84 /* AppDelegate.swift in Sources */,
+				D7BB2E4F26F8E81B005D9D84 /* TableDispatch.swift in Sources */,
 				D7BB2E3926F8E479005D9D84 /* SceneDelegate.swift in Sources */,
+				D7BB2E4C26F8E586005D9D84 /* StaticDispatch.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

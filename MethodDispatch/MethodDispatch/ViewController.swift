@@ -11,7 +11,14 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        
+        let otter = Otter()
+        let cat = Cat()
+        let viewController = ViewController()
+        
+        otter.swim() // Direct
+        cat.meow() // Direct
+        viewController.methodInExtension() // Direct
     }
 
 
